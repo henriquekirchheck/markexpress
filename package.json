@@ -1,6 +1,6 @@
 {
   "name": "markexpress",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Express middleware for serving Markdown files as HTML",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
