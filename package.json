@@ -1,6 +1,6 @@
 {
   "name": "markexpress",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Express middleware for serving Markdown files as HTML",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,8 @@
     "test": "echo \"No Tests Written\" && exit 0",
     "format": "biome format src --write",
     "lint": "biome lint src",
-    "check": "biome check"
+    "check": "biome check",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
