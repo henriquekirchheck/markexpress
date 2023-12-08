@@ -11,7 +11,7 @@ jobs:
     - name: Install Dependencies
       run: npm install
     - name: Check Types
-      run: npx tsc --no-emit
+      run: npx tsc --noEmit
     - name: Check Code
       run: npx @biomejs/biome ci src
     - name: Run tests
